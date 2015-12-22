@@ -1,0 +1,13 @@
+#TeX 
+*.toc
+*.log
+*.lof
+*.lot
+*.aux
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+
+#Temporary
+*~

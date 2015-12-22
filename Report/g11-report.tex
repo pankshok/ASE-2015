@@ -1,0 +1,184 @@
+\documentclass[a4paper,12pt,titlepage,fullpage]{article} %page properties
+\usepackage[headings]{fullpage} %for fullpage with headings
+\usepackage{fancyhdr} %for headings
+\usepackage{graphicx} %for label
+\usepackage{tabularx} %for fullpage tables
+\usepackage{longtable} %for tables on multiple pages
+\usepackage{hyperref}
+
+
+% defining headings
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LE,RO]{ASE 2015-2016 \hfill PROJECT REPORT}
+
+\begin{document}
+\begin{titlepage}
+
+%defining university
+\begin{center}
+	POLITECNICO DI MILANO --- COMO CAMPUS\\
+	\vspace{10pt}
+	\includegraphics[scale=0.1]{logo-polimi.png}\\
+	\vspace{10pt}
+	ADVANCED SOFTWARE ENGINEERING 2015-2016\\
+	prof. Marco Brambilla
+	\line(2,0){500}
+\end{center}
+
+\vspace{60pt}
+
+%defining work type
+\begin{center}
+	{\Huge \textbf{Group 11}}\\
+	{\Huge \textbf{Project report}}\\
+\end{center}
+
+\vspace{60pt}
+
+%defining project title
+
+\begin{center}
+	{\large Project title}
+\end{center}
+\begin{tabularx}{\textwidth}{|X|}
+	\hline
+	A2 --- Analysis of models for identifying recurring patterns\\
+	\hline
+\end{tabularx}
+
+\vspace{20pt}
+
+%defining project repo
+\begin{center}
+	{\large Project repository}
+\end{center}
+\begin{tabularx}{\textwidth}{|X|}
+	\hline
+	\href{https://github.com/attillax/ASE-2015}{Click}\\
+	\hline
+\end{tabularx}
+
+\vspace{20pt}
+
+%defining group members
+\begin{center}
+	{\large Group members}
+\end{center}
+\begin{tabularx}{\textwidth}{|l|l|l|X|}
+	\hline
+	ID & Surname & Name & e-mail \\
+	\hline
+	10460625 & Golubeva & Svetlana & svetlana.golubeva@mail.polimi.it \\
+	\hline
+	 & Zamani & Azadeh & azadeh.zamani@mail.polimi.it \\
+	\hline
+	 &  & & \\
+	\hline
+	 &  & & \\
+	\hline
+\end{tabularx}
+
+\vspace{\fill}
+\begin{center}
+	\line(2,0){500}
+\end{center}
+
+\end{titlepage}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\tableofcontents
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+\listoftables
+
+\listoffigures
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+\section{Task} 
+
+A2 --- Analysis of models for identifying recurring patterns.\\
+
+\begin{tabular}{|c|c|c|}
+	\hline
+	Students & Interactions & Marks \\
+	\hline
+	from 3 to 5 & every 2 weeks & from 5 to 10 \\
+	\hline
+\end{tabular}
+
+\vspace{15pt}
+
+The project consists in:
+
+\begin{itemize}
+	\item studying the existing research literature in the field of pattern mining and identification in models
+	\item selecting and possibly advancing one technique, and implementing an analyzer that applies such model identification approach to ecore metamodels
+	\item applying the analysis to a set of metamodels available from past exercises and exams
+	\item showing and discussing the results
+\end{itemize}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+\section{Technical Notes}
+\subsection{Repository structure}
+
+\subsection{Chronology}
+\begin{longtable}{|c|p{13cm}|}
+	\hline
+	Date & Content \\
+	\hline
+	2015-12-16 & Group forming \\
+	\hline
+	2015-12-21 & Project assignment \\
+	\hline
+	2015-12-22 & Creation of the repository and the report template \\
+	& Request for the clarifications about the project's task \& materials \\
+	\hline
+	& \\
+	\hline
+	2015-01-04 & Check1 \\
+	\hline
+	2015-01-18 & Check2 \\
+	\hline
+	2015-02-01 & Check3 \\
+	\hline
+	& \\
+	\hline
+	& \\
+	\hline
+	& \\
+	\hline
+	& \\
+	\hline
+	& \\
+	\hline
+	\caption{project's chronology.}
+\end{longtable}
+
+\subsection{List of tools}
+\begin{table}[h]
+	\begin{tabularx}{\textwidth}{|l|X|}
+		\hline
+		What & Which \\
+		\hline
+		OS & Linux \\
+		\hline
+		Lang & \TeX \\
+		\hline
+		IDE & \TeX-Studio, Emacs\\
+		\hline
+		& Terminal, make \\
+		\hline
+		& \\
+		\hline
+	\end{tabularx}
+	\caption{list of tools.}
+\end{table}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\end{document}
